@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/media-queries.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>flexbox-project</title>
+    </head>
+    <body>
+        <!-- header -->
+        <header class="d-flex">
+            <div>
+                <a href="#">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+            </div>
+            <!-- nav section-->
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Destination</a>
+                    </li>
+                    <li>
+                        <a href="#">Pages</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- end nav section-->
+            <div>
+                <!-- icon -->
+                <div class="search-icon d-flex">
+                    <a href="#">
+                        <i class="fa fa-search"></i>
+                    </a>
+                </div>
+                <div class="dropdown-icon d-flex">
+                    <a href="#">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- end icon -->
+        </header>
+        <!-- end header-->
+        <!-- main -->
+        <main>
+            <!-- slider -->
+            <section class="slider">
+                <div class="slider-text d-flex">
+                    <h3>Australia</h3>
+                    <p>Pixel perfect design with awesome contents</p>
+                    <a href="#" class="slider-btn">Explore Now</a>
+                </div>
+            </section>
+            <!-- end slider -->
+            <!-- search bar -->
+            <section class="search-bar d-flex">
+                <h3> Where You Want to go? </h3>
+                <form action="#" class="search-form d-flex">
+                    <input type="text" placeholder="Where to go?">
+                    <input type="text" placeholder="Where to go?">
+                    <input type="text" placeholder="Where to go?">
+                    <button class="search-btn" type="button"> Search </button>
+                </form>
+            </section>
+            <!-- end search bar -->
+            <!-- popular -->
+            <section class="row popular-heading">
+                <h3 class="popular-title"> Popular Destination </h3>
+                <p class="popular-text"> Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Sunt reprehenderit voluptatum repudiandae
+                    possimus laudantium similique iusto itaque eligendi
+                    veritatis! Error.</p>
+            </section>
+            <section class="row popular-container">
+                <!-- single img -->
+                <article>
+                    <img src="img/1.png" alt="photo">
+                    <div class="popular-img-info">
+                        <p> Italy <a href="#"> 07 Places </a></p>
+                    </div>
+                </article>
+                <!-- end single img -->
+                <!-- single img -->
+                <article>
+                    <img src="img/2.png" alt="photo">
+                    <div class="popular-img-info">
+                        <p> Brazil <a href="#"> 03 Places </a></p>
+                    </div>
+                </article>
+                <!-- end single img -->
+                <!-- single img -->
+                <article>
+                    <img src="img/3.png" alt="photo">
+                    <div class="popular-img-info">
+                        <p> American <a href="#"> 10 Places </a></p>
+                    </div>
+                </article>
+                <!-- end single img -->
+                <!-- single img -->
+                <article>
+                    <img src="img/4.png" alt="photo">
+                    <div class="popular-img-info">
+                        <p> Nepal <a href="#"> 02 Places </a></p>
+                    </div>
+                </article>
+                <!-- end single img -->
+                <!-- single img -->
+                <article>
+                    <img src="img/5.png" alt="photo">
+                    <div class="popular-img-info">
+                        <p> Maldives <a href="#"> 02 Places </a></p>
+                    </div>
+                </article>
+                <!-- end single img -->
+                <!-- single img -->
+                <article>
+                    <img src="img/6.png" alt="photo">
+                    <div class="popular-img-info">
+                        <p> Maldives <a href="#"> 02 Places </a></p>
+                    </div>
+                </article>
+                <!-- end single img -->
+            </section>
+            <!-- end popular -->
+            <!-- newsletter-->
+            <section class="newsletter d-flex">
+                <div class="newsletter-container row">
+                    <div class="newsletter-text d-flex">
+                        <h4> Subscribe Our Newsletter</h4>
+                        <p> Subscribe newsletter to get offers and about new
+                            places to discover. </p>
+                    </div>
+                    <div class="mail-form ">
+                        <input type="email" placeholder="Your mail">
+                        <button class="newsletter-btn" type="submit">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <!-- end newsletter-->
+            <!-- video -->
+            <section class="video">
+                <div class="video-container d-flex">
+                    <h3> Enjoy Video </h3>
+                    <div class="video-button d-flex">
+                        <a href="#" class="tag-a">
+                            <i class="fa fa-play"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- end video -->
+        </main>
+        <!-- end main -->
+        <!-- footer -->
+        <footer class="row">
+            <div class="left-footer">
+                <img src="img/footer_logo.png" alt="logo" class="footer-img">
+                <ul class="footer-info">
+                    <li>Sth flora, 700/D kings road, green </li>
+                    <li> Lone New York-1782</li>
+                    <li>+10 367 828 2567</li>
+                    <li>contact@carpenter.com</li>
+                </ul>
+            </div>
+            <div class="right-footer">
+                <h3 class="footer-title"> Popular Destination</h3>
+                <ul class="link">
+                    <li>
+                        <a href="#">England</a>
+                    </li>  
+                    <li>
+                        <a href="#">Canada</a>
+                    </li>  
+                    <li>
+                        <a href="#">Switzerland</a>
+                    </li>  
+                    <li>
+                        <a href="#">America</a>
+                    </li>  
+                    <li>
+                        <a href="#">French</a>
+                    </li>  
+                    <li>
+                        <a href="#">Italy</a>
+                    </li>  
+                    <li>
+                        <a href="#">India</a>
+                    </li>  
+                    <li>
+                        <a href="#">Indonesia</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <!-- end footer -->
+    </body>
+</html>
